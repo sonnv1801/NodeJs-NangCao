@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/product
+
+
+###
+
+POST http://localhost:5000/api/product
+Content-Type: application/json
+
+{
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeMxR-hE9rAHYViMu_Uaf74dWn0zTATXutbhFdGMVKzXk-HPYCxGXm4d0gOivBN8vLDM&usqp=CAU",
+  "title": "Mang03",
+  "description": "Food delicious"
+}
+
+###
+GET http://localhost:5000/api/product/abc
+
+###
+GET http://localhost:5000/api/user
+
+###
+
+POST http://localhost:5000/api/user
+Content-Type: application/json
+
+{
+  "email": "nvs10.dev.vn@gmail.com",
+  "password": "1234",
+  "address": "Quang Ngai",
+  "status": true,
+  "created": "2022-03-04",
+  "update": "2022-03-05"
+}
